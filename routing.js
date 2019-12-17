@@ -18,6 +18,4 @@ const server=http.createServer((req,res)=>{
         res.write('</html>');
     }
 });
-
-
 server.listen(3000);
