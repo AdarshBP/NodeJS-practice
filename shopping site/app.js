@@ -17,9 +17,7 @@ app.use(shopRoutes);
 
 app.use((req,res,next) => {
     console.log("entered 404 error");
-    
     res.status(404).sendFile(path.join(__dirname,'views','404.html'));
-  
 });
 
 
